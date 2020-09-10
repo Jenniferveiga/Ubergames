@@ -1,66 +1,49 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
+import FormControl from 'react-bootstrap/FormControl';
+import InputGroup from 'react-bootstrap/InputGroup';
+import Jumbotron from 'react-bootstrap/Jumbotron';
 import Card from 'react-bootstrap/Card'
+import CardDeck from 'react-bootstrap/CardDeck'
+
 
 
 class Profile extends Component {
   render() {
-    return (
+    return(
+      <div>
 
-      <div className="container">
-        <br></br>
+      <Jumbotron style={{ textAlign: 'center', backgroundColor: 'transparent'}}>
 
-        <Container>
-          <Row>
-            <Col>
-              <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="https://www.pngitem.com/pimgs/m/97-970805_cartoon-face-with-glasses-hd-png-download.png" />
-                <Card.Body>
-                  <Card.Title>Bob Bush</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
-    </Card.Text>
-                </Card.Body>
-              </Card>
+        <h1>My Profile</h1>
 
-            </Col> 
-            
-            <Col xs={6}>
-            <Card body>
-            Contact Information
-            <br></br>
-            <br></br>
-            Email:
-            <br></br>
-            <br></br>
-            Phone:
-            </Card>
+        <Card>
+  <Card.Img  style={{ width: '18rem', margin: 'auto'}} variant="top" src="https://moonvillageassociation.org/wp-content/uploads/2018/06/default-profile-picture1.jpg" />
+<Card.Body>
+  <Card.Title>John Doe</Card.Title>
+  <Card.Text>
+    Email contact: Johndoerulez@gmail.com
+    <br></br>
+    Phone Number: (123) - 123 - 1234
+  </Card.Text>
+  <Button variant="primary">Edit Profile Image</Button>
+</Card.Body>
+</Card>
+       
+      </Jumbotron>
 
-            <br></br>
-            <Card body>
-            <br></br>
-            Sells or Trade activity
-            <br></br>
-            <br></br>
-            Seller ranking
-            <br></br>
-            <br></br>
-            News Feed
-            </Card>
-            
-            </Col>
+      
 
-            <Col></Col>
-            
-          </Row>
+  
 
-        </Container>
+      
 
-      </div>
+</div>
+
 
     )
   }

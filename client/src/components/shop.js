@@ -16,9 +16,9 @@ class Shop extends Component {
         <Jumbotron style={{ textAlign: 'center', backgroundColor: 'transparent'}}>
 
           <h1>SHOP LISTINGS</h1>
-          <p>
+          <h6>
             Search far and wide for games you've been wanting to get your hands on.
-        </p>
+        </h6>
         </Jumbotron>
 
         <div className="container">
@@ -54,11 +54,7 @@ class Shop extends Component {
     </Card.Text>
 
     <Card.Text>
-      Description: A React component for displaying different types of images, 
-      including network images, static resources, temporary local images, and 
-      images from local disk, such as the camera roll.This example shows fetching 
-      and displaying an image from local storage as well as one from network 
-      and even from data provided in the 'data:' uri scheme.
+      Description: 
 
     </Card.Text>
 
@@ -98,9 +94,7 @@ class Shop extends Component {
     </Card.Text>
 
     <Card.Text>
-      Description:A React component for displaying different types of images, 
-      including network images, static resources, temporary local images, and images from local disk, such as the camera roll.
-      This example shows fetching and displaying an image from local storage as well as one from network and even from data provided in the 'data:' uri scheme.
+      Description:
     </Card.Text>
 
     {/* <Button variant="primary">Buy</Button> */}
@@ -139,9 +133,7 @@ class Shop extends Component {
     </Card.Text>
 
     <Card.Text>
-      Description:A React component for displaying different types of images, 
-      including network images, static resources, temporary local images, and images from local disk, such as the camera roll.
-      This example shows fetching and displaying an image from local storage as well as one from network and even from data provided in the 'data:' uri scheme.
+      Description:
     </Card.Text>
 
     {/* <Button variant="primary">Buy</Button> */}
